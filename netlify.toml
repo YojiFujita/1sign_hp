@@ -1,0 +1,11 @@
+[build]
+  publish = "."
+  command = ""
+
+# Uncomment if you later convert to SPA and need history fallback
+#[[redirects]]
+#  from = "/**"
+#  to = "/index.html"
+#  status = 200
+
+
