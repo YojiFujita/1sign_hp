@@ -983,3 +983,61 @@
   top: 32.69%;
   height: 34.62%;
 }
+
+/* Smartphone (<= 768px) */
+@media (max-width: 768px) {
+  ._1 {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  /* ベース: 固定pxの横幅をフル幅に */
+  .div,
+  .div5,
+  .div8,
+  .a-ix-saas,
+  .frame-2267,
+  .footer {
+    width: 100%;
+    left: 0;
+  }
+
+  /* ヒーロー領域調整 */
+  .rectangle-1097,
+  .rectangle-1098 {
+    width: 100%;
+    left: 0;
+  }
+
+  .business { left: 16px; top: 80px; font-size: 34px; line-height: 40px; }
+  .dx { left: 16px; top: 140px; width: calc(100% - 32px); font-size: 18px; line-height: 30px; }
+  .div2 { left: 16px; top: 280px; font-size: 18px; line-height: 30px; }
+  .div3 { left: auto; right: 16px; top: 340px; font-size: 18px; line-height: 30px; }
+  .component-10 { left: 16px; top: 420px; width: 200px; height: 52px; }
+
+  /* サイバーアクセスポートセクション */
+  ._1-sign-cyber-access-port { left: 16px; top: 40px; font-size: 30px; line-height: 36px; }
+  ._1-sign-cyber-access-port2 { left: 16px; top: 300px; width: calc(100% - 32px); font-size: 18px; line-height: 30px; }
+  .div9 { left: 16px; top: 460px; }
+  ._2024-07-01-22-59-47-1 { left: 16px; top: 200px; width: calc(100% - 32px); height: auto; }
+  .component-103 { left: 16px; top: 560px; }
+
+  /* AI SaaS セクション */
+  .ai-saa-s { left: 16px; top: 40px; font-size: 30px; line-height: 34px; }
+  .div12 { left: 16px; top: 84px; }
+  .div11 { left: 16px; top: 140px; width: calc(100% - 32px); }
+  ._1-sign-ai-saa-s2 { left: 16px; top: 240px; width: calc(100% - 32px); }
+  .component-104 { left: 16px; top: 420px; }
+
+  /* CTA/テキストのフォント微調整 */
+  .div14 { left: 16px; right: 16px; width: auto; font-size: 26px; line-height: 38px; }
+  .div13 { left: 16px; right: 16px; width: auto; font-size: 26px; line-height: 38px; }
+
+  /* ヘッダー固定バーの左右余白調整 */
+  .group-2394 { left: 8px; right: 8px; width: auto; }
+  .rectangle-4446 { left: 0; right: 0; width: 100%; }
+
+  /* 画像は横幅に追随 */
+  img { max-width: 100%; height: auto; }
+}
