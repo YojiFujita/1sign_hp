@@ -1,0 +1,4 @@
+[33md28274f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m メニューボタンの文字折り返し問題を修正 - 私たちの強み、サービス、お問合せの文字が横一列に表示されるよう調整
+[33m063a2e4[m feat: add hamburger menu and device-specific breakpoints (768/640/480)
+[33m31a652b[m feat: responsive smartphone styles (@media max-width:768px)
+[33m8097387[m chore: initial static site with main.js and netlify.toml
