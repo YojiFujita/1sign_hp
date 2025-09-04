@@ -241,6 +241,32 @@
   </nav>
 
   <script src="./main.js"></script>
+  
+  <!-- デバイス検出とリダイレクト -->
+  <script>
+    // スマフォ・タブレット検出
+    function isMobileDevice() {
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+             (window.innerWidth <= 768) ||
+             ('ontouchstart' in window) ||
+             (navigator.maxTouchPoints > 0);
+    }
+    
+    // ページ読み込み時にデバイス検出
+    window.addEventListener('load', function() {
+      if (isMobileDevice()) {
+        // スマフォの場合はmobileフォルダにリダイレクト
+        window.location.href = './mobile/';
+      }
+    });
+    
+    // リサイズ時にも検出（画面サイズ変更時）
+    window.addEventListener('resize', function() {
+      if (isMobileDevice()) {
+        window.location.href = './mobile/';
+      }
+    });
+  </script>
  
 </body>
 </html>

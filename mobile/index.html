@@ -204,5 +204,31 @@
     <img class="footer-1" src="footer-10.png" />
   </div>
   
+  <!-- デバイス検出とリダイレクト（PC版へ） -->
+  <script>
+    // PC検出
+    function isPCDevice() {
+      return !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) &&
+             (window.innerWidth > 768) &&
+             !('ontouchstart' in window) &&
+             (navigator.maxTouchPoints === 0);
+    }
+    
+    // ページ読み込み時にデバイス検出
+    window.addEventListener('load', function() {
+      if (isPCDevice()) {
+        // PCの場合はルートディレクトリにリダイレクト
+        window.location.href = '../';
+      }
+    });
+    
+    // リサイズ時にも検出（画面サイズ変更時）
+    window.addEventListener('resize', function() {
+      if (isPCDevice()) {
+        window.location.href = '../';
+      }
+    });
+  </script>
+  
 </body>
 </html>
