@@ -1018,6 +1018,7 @@
     width: 100%;
     left: 0;
     height: 100vh;
+    object-position: center center;
   }
 
   /* スマフォ専用レイアウト - 重なりを完全に解消 */
@@ -1175,7 +1176,7 @@
     font-size: 22px; 
     line-height: 32px; 
     text-align: center;
-    top: 50px;
+    top: 150px;
   }
   .component-11 {
     left: 50%;
@@ -1210,6 +1211,12 @@
 
   /* 画像は横幅に追随 */
   img { max-width: 100%; height: auto; }
+  
+  /* 背景画像の中央配置 */
+  .rectangle-1098 {
+    object-fit: cover;
+    object-position: center center;
+  }
   
   /* フッター最適化 */
   .footer {
