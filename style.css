@@ -995,10 +995,10 @@
 /* Smartphone (<= 768px) */
 @media (max-width: 768px) {
   ._1 {
-    width: 100vw;
-    height: auto;
-    min-height: 100vh;
-    overflow: visible;
+    width: 100vw !important;
+    height: auto !important;
+    min-height: 100vh !important;
+    overflow: visible !important;
   }
 
   /* ベース: 固定pxの横幅をフル幅に */
@@ -1023,12 +1023,13 @@
 
   /* スマフォ専用レイアウト - 重なりを完全に解消 */
   .business { 
-    left: 16px; 
-    top: 300px; 
-    font-size: 28px; 
-    line-height: 34px; 
-    width: calc(100% - 32px);
-    text-align: center;
+    left: 20px !important; 
+    top: 300px !important; 
+    font-size: 28px !important; 
+    line-height: 34px !important; 
+    width: calc(100% - 40px) !important;
+    text-align: center !important;
+    background: rgba(255, 0, 0, 0.1) !important; /* デバッグ用 */
   }
   .dx { 
     left: 16px; 
@@ -1316,6 +1317,24 @@
 
 @media (max-width: 768px) {
   .hamburger { display: block; }
+}
+
+/* より広い範囲のスマフォ対応 */
+@media (max-width: 1024px) {
+  ._1 {
+    width: 100vw !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+  
+  .business {
+    left: 20px !important;
+    top: 300px !important;
+    font-size: 24px !important;
+    width: calc(100% - 40px) !important;
+    text-align: center !important;
+    background: rgba(0, 255, 0, 0.1) !important; /* デバッグ用 */
+  }
 }
 
 /* Additional device breakpoints */
