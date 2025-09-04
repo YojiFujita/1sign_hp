@@ -998,6 +998,7 @@
     width: 100vw;
     height: auto;
     min-height: 100vh;
+    overflow: visible;
   }
 
   /* ベース: 固定pxの横幅をフル幅に */
@@ -1022,7 +1023,14 @@
   .dx { left: 16px; top: 140px; width: calc(100% - 32px); font-size: 18px; line-height: 30px; }
   .div2 { left: 16px; top: 280px; font-size: 18px; line-height: 30px; }
   .div3 { left: auto; right: 16px; top: 340px; font-size: 18px; line-height: 30px; }
-  .component-10 { left: 16px; top: 420px; width: 200px; height: 52px; }
+  /* CTA ボタン（私たちの強み）を中央・やや下に配置 */
+  .component-10 {
+    left: 50%;
+    top: 520px;
+    width: 220px;
+    height: 52px;
+    transform: translateX(-50%);
+  }
 
   /* サイバーアクセスポートセクション */
   ._1-sign-cyber-access-port { left: 16px; top: 40px; font-size: 30px; line-height: 36px; }
@@ -1045,6 +1053,12 @@
   /* ヘッダー固定バーの左右余白調整 */
   .group-2394 { left: 8px; right: 8px; width: auto; }
   .rectangle-4446 { left: 0; right: 0; width: 100%; }
+  /* ヘッダー文字の重なり回避（モバイルでは非表示） */
+  .div15,
+  .div16,
+  .link-list,
+  .link-list2,
+  .frame-2269 { display: none; }
   
   /* ヘッダーメニューのモバイル対応 */
   .div15, .div16, .div17 { font-size: 12px; }
