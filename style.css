@@ -1023,7 +1023,7 @@
   /* スマフォ専用レイアウト - 重なりを完全に解消 */
   .business { 
     left: 16px; 
-    top: 200px; 
+    top: 300px; 
     font-size: 28px; 
     line-height: 34px; 
     width: calc(100% - 32px);
@@ -1031,7 +1031,7 @@
   }
   .dx { 
     left: 16px; 
-    top: 260px; 
+    top: 360px; 
     width: calc(100% - 32px); 
     font-size: 16px; 
     line-height: 28px; 
@@ -1039,7 +1039,7 @@
   }
   .div2 { 
     left: 16px; 
-    top: 360px; 
+    top: 460px; 
     font-size: 16px; 
     line-height: 28px; 
     text-align: center;
@@ -1047,7 +1047,7 @@
   }
   .div3 { 
     left: 16px; 
-    top: 400px; 
+    top: 500px; 
     font-size: 16px; 
     line-height: 28px; 
     text-align: center;
@@ -1056,7 +1056,7 @@
   /* CTA ボタン（私たちの強み）を中央・やや下に配置 */
   .component-10 {
     left: 50%;
-    top: 480px;
+    top: 580px;
     width: 200px;
     height: 48px;
     transform: translateX(-50%);
