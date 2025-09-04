@@ -1045,6 +1045,12 @@
   /* ヘッダー固定バーの左右余白調整 */
   .group-2394 { left: 8px; right: 8px; width: auto; }
   .rectangle-4446 { left: 0; right: 0; width: 100%; }
+  
+  /* ヘッダーメニューのモバイル対応 */
+  .div15, .div16, .div17 { font-size: 12px; }
+  .logo-1 { right: 50%; left: 50%; transform: translateX(-50%); }
+  .rectangle-4448 { right: 8px; left: auto; width: 80px; }
+  .div18 { right: 8px; left: auto; width: 80px; font-size: 12px; }
 
   /* 画像は横幅に追随 */
   img { max-width: 100%; height: auto; }
@@ -1101,6 +1107,11 @@
   .business { font-size: 28px; line-height: 34px; }
   .dx { font-size: 16px; line-height: 28px; }
   .div14, .div13 { font-size: 22px; line-height: 32px; }
+  
+  /* ヘッダーメニューの小画面対応 */
+  .div15, .div16, .div17 { font-size: 11px; }
+  .rectangle-4448 { width: 70px; }
+  .div18 { width: 70px; font-size: 11px; }
 }
 
 @media (max-width: 480px) {
@@ -1108,4 +1119,9 @@
   .dx { font-size: 15px; line-height: 26px; }
   .component-10, .component-103, .component-104 { width: 180px; height: 48px; }
   .div14, .div13 { font-size: 20px; line-height: 30px; }
+  
+  /* ヘッダーメニューの超小画面対応 */
+  .div15, .div16, .div17 { font-size: 10px; }
+  .rectangle-4448 { width: 60px; }
+  .div18 { width: 60px; font-size: 10px; }
 }
