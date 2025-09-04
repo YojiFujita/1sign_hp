@@ -4,63 +4,72 @@
 }
 .mobile-top {
   background: #eee9e1;
-  height: 9884px;
+  height: auto;
+  min-height: 100vh;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
+  width: 100vw;
 }
 .div {
   background: #004324;
-  width: 750px;
-  height: 1069px;
-  position: absolute;
-  left: 0px;
-  top: 894px;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  position: relative;
+  padding: 40px 20px;
 }
 .rectangle-4453 {
   border-radius: 0px;
-  width: 752px;
-  height: 603px;
-  position: absolute;
-  left: -24px;
-  top: 0px;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  position: relative;
+  left: 0;
+  top: 0;
   overflow: visible;
+  object-fit: cover;
 }
 .dx {
   color: #f9f5ee;
-  text-align: left;
+  text-align: center;
   font-family: "NotoSansJp-Bold", sans-serif;
-  font-size: 34px;
-  line-height: 49.68px;
+  font-size: 18px;
+  line-height: 28px;
   letter-spacing: 0.13em;
   font-weight: 700;
-  position: absolute;
-  left: 39.45px;
-  top: 152px;
-  width: 633.39px;
+  position: relative;
+  left: 0;
+  top: 20px;
+  width: 100%;
+  margin: 20px 0;
 }
 .div2 {
   color: #f9f5ee;
-  text-align: left;
+  text-align: center;
   font-family: "NotoSansJp-Bold", sans-serif;
-  font-size: 26px;
-  line-height: 49.68px;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0.13em;
   font-weight: 700;
-  position: absolute;
-  left: 39.45px;
-  top: 338px;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 10px 0;
 }
 .div3 {
   color: #f9f5ee;
-  text-align: left;
+  text-align: center;
   font-family: "NotoSansJp-Bold", sans-serif;
-  font-size: 30px;
-  line-height: 49.68px;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0.13em;
   font-weight: 700;
-  position: absolute;
-  left: 419px;
-  top: 468px;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 10px 0;
 }
 .group-1597879170 {
   position: absolute;
@@ -68,14 +77,16 @@
 }
 .business {
   color: #004324;
-  text-align: left;
+  text-align: center;
   font-family: "Audiowide-Regular", sans-serif;
-  font-size: 64.47368621826172px;
-  line-height: 77.38px;
+  font-size: 32px;
+  line-height: 40px;
   font-weight: 400;
-  position: absolute;
-  left: calc(50% - 343px);
-  top: 53.14px;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 20px 0;
 }
 .div4 {
   color: #004324;
