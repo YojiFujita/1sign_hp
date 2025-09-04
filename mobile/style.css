@@ -2,13 +2,18 @@
 .mobile-top * {
   box-sizing: border-box;
 }
+html, body { max-width: 100%; overflow-x: hidden; }
+
 .mobile-top {
   background: #eee9e1;
   height: auto;
   min-height: 100vh;
   position: relative;
   overflow: visible;
-  width: 100vw;
+  /* デザイン基準幅(750px)を端末幅にフィットさせる */
+  width: 750px;
+  transform: scale(calc(100vw / 750));
+  transform-origin: top left;
 }
 .div {
   background: #004324;
